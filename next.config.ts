@@ -18,6 +18,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  transpilePackages: ['node-fetch', 'data-uri-to-buffer', 'fetch-blob', 'formdata-polyfill'],
   experimental: {
     allowedDevOrigins: [
         "https://*.cluster-ubrd2huk7jh6otbgyei4h62ope.cloudworkstations.dev"
